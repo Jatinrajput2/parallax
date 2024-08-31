@@ -46,7 +46,7 @@ h1{
 section{
     background-color: rgb(45,45,45);
     color: white;
-    padding: 5rem;
+    padding: 5rem 0;
 }
 
 .secHeading{
@@ -60,12 +60,34 @@ section{
     margin: 5rem 0;
 }
 
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+}
+
 .bg1{
-    background-image: url('./bg1.jpeg');
+    background-image: url('bg1.jpg');
 }
 .bg2{
-    background-image: url('./bg2.webp');
+    background-image: url('bg2.webp');
 }
 .bg3{
-    background-image: url(./bg3.jpg);
+    background-image: url('bg3.jpg');
 }
